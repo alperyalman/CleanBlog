@@ -1,0 +1,30 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Clean Blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperyalman/CleanBlog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Alper Yalman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alperyalman/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/alperyalman/CleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
